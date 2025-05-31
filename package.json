@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorykings/nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Victoria Korolenya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorykings/nodejs/issues"
+  },
+  "homepage": "https://github.com/viktorykings/nodejs#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
