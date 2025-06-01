@@ -1,3 +1,4 @@
+import chalk from 'chalk'
 class Router {
     constructor() {
         this.endpoints = {}
@@ -11,7 +12,7 @@ class Router {
         this.endpoint = this.endpoints[path]
 
         if (this.endpoint[method]) {
-            throw new Error(`Method ${method} already exist on path ${path}`)
+            throw new Error(chalk.red(`Method ${method} already exist on path ${path}`))
         }
 
         this.endpoint[method] = handler
